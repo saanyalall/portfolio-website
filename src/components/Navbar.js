@@ -58,7 +58,7 @@ function Navbar() {
 
       {nav && (
       
-        <ul className="w-1/2 flex flex-col items-start justify-center absolute top-0 my-20 ml-80 bg-gradient-to-b from-black to-gray-800  text-gray-400">
+        <ul className=" rounded-3xl flex flex-col items-start justify-center absolute top-0 my-24 ml-36 bg-gradient-to-b from-black to-gray-800  text-gray-400">
         {Links.map(({ id, link }) => (
           <li key={id} className="px-4 cursor-pointer py-6 capitalize text-4xl">
           <Link onClick={()=> setNav(!nav)} to={link} smooth duration={500} >

@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 function Home() {
   return (
     <div name="home" className="h-screen w-full bg-gradient-to-b from-black to-gray-800">
-      <div className=" max-w-screen-lg  mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+      <div className=" max-w-screen-lg mx-auto mr-7 flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className=" px-3 flex flex-col justify-center h-full">
           <h2 className=" sm:text-5xl text-2xl  font-bold text-white">I'm a frontend developer</h2>
           <p className="text-gray-500 py-3 max-w-screen-md">
@@ -25,7 +25,7 @@ function Home() {
         </div>
 
 <div >
-<img src="./assests/saanyaImage.jpeg" alt="my profile" className="w-2/5 rounded-3xl mx-auto"></img>
+<img src="./assests/saanyaimg.jpeg" alt="my profile" className="w-2/5 rounded-2xl"></img>
 
 </div>
 

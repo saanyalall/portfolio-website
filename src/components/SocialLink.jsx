@@ -33,7 +33,7 @@ function SocialLink() {
                 Resume <BsPersonCheck size={25}/> 
                  </>
             ),
-            href:"/Saanya's Resume.pdf",
+            href:"/Saanya's Resume (3).pdf",
             download:true
         },
 
